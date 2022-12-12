@@ -1,0 +1,12 @@
+{
+    "resourceType": "OperationOutcome",
+    "issue": [
+        {
+            "severity": "error",
+            "code": "throttled",
+            "details": {
+              "text": "API Key ${HTTP.REQ.URL.PATH.GET(1)}" 
+            }
+        }
+    ]
+}
